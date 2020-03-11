@@ -1,0 +1,221 @@
+  sudo wireshark &
+  xterm
+  ping -c 1 10.0.0.1
+  ifconfig
+  python -m SimpleHTTPServer 80 &
+  ifconfig
+  python -m SimpleHTTPServer 80 &
+  python -m SimpleHTTPServer 80
+  ps -ef | grep SimpleHTTPServer
+  ps -ef | grep SimpleHTTPServer
+  sudo dpctl unix:/tmp/s1 flow-stats
+  wget -O - h1
+  wget -O - 10.0.0.1
+  dpctl dump-flows tcp:127.0.0.1:6634
+  dpctl dump-flows tcp:127.0.0.1:6633
+  dpctl dump-flows tcp:127.0.0.1:6634
+  dpctl 
+  dpctl --help
+  dpctl --help | more
+  dpctl show
+  dpctl show SWITCH
+  dpctl show 
+  dump
+  dpctl show s1
+  dpctl features
+  dpctl h1 features
+  dpctl unix:/tmp/s1 stats-flow
+  dpctl unix:/tmp/s1 stats-flow table0
+  eclipse &
+  sudo eclipse &
+  exit
+  eclipse &
+  wireshark &
+  sudo vm --controller=remote
+  sudo mn --controller=remote
+  sudo mn -c
+  eclipse &
+  sudo mn --controller=remote
+  ifconfig
+  cd /etc/network/
+  cat -v netw
+  cat -v interfaces 
+  cd /etc/
+  ls
+  cd udev
+  ls
+  cd rules.d/
+  ls
+  cat -v 70-persistent-net.rules 
+  sudo nano 70-persistent-net.rules 
+  shutdown -r now
+  sudo shutdown -r now
+  ifconfig
+  ping 10.0.0.2
+  shutdown now
+  sudo shutdown now
+  ifconfig
+  sudo shutdown now
+  cd /etc/ssh
+  ls
+  cat sshd_config 
+  cat sshd_config | more
+  sudo poweroff now
+  cd /media
+  la
+  mount /dev/sr0 /media/cdrom
+  cd cdrom
+  ./VBoxLinuxAdditions.run 
+  shutdown -h now
+  sudo -s
+  ls
+  cd mininet/
+  ls
+  cd examples/
+  ls
+  sudo nano controllers2.py 
+  ls
+  sudo nano controllers.py 
+  sudo python controllers.py 
+  sudo mn -c
+  sudo nano controllers.py 
+  sudo nano mesh.py
+  sudo shutdown -h now
+  cd mininet/mininet/
+  ls
+  cd ../
+  ls
+  cd custom/
+  ls
+  sudo mn --custom controller_2switch.py --topo=mytopo --coler=remote,ip=192.168.1.215,port=6633
+  sudo mn -c
+  sudo mn --custom controller_2switch.py --topo=mytopo --coler=remote,ip=192.168.1.215,port=6633
+  ifconfig
+  sudo shutdown -h now
+  sudo mn -c
+  ls
+  pwd
+  cd mininet/
+  ls
+  cd examples/
+  ls
+  cat mesh.py 
+  ifconfig
+  sudo shtdown -h nopw
+  sudo shutdown -h now
+  ls
+  cd mininet
+  ls
+  cd examples/
+  ls
+  ls -al
+  pwd
+  ifconfig
+  ls
+  cat mesh.py 
+  history
+  sudo mn
+  sudo mn -c
+  sudo mn --topo=linear,4
+  sudo mn -c
+  sudo mn --topo=tree,2,2
+  sudo mn -c
+  sudo mn --topo=single,4
+  sudo mn -c
+  exit
+  ifconfig
+  sudo shutdown -h now
+  sudo mn --topo=single,4
+  sudo mn -c
+  sudo mn --topo=single,4
+  ls
+  cd mininet
+  ls
+  cd examples/
+  ls
+  sudo ./miniedit
+  sudo ./miniedit.py
+  sudo ./miniedit2.py
+  ./miniedit.py
+  sudo mn -c
+  sudo ./miniedit.py
+  ls
+  cat miniedit.py
+  cd /etc/udev/rules.d/
+  ls
+  sudo nano 70-persistent-net.rules 
+  sudo shutdown -r now
+  ifconfig
+  sudo ovs-vsctl set-manager tcp:192.168.1.215:6640
+  ifconfig
+  sudo ovs-vsctl list manger
+  sudo ovs-vsctl get-manager
+  sudo mount /dev/sr0 /media/cdrom
+  ls
+  cd /media/cdrom
+  ls
+  ./VBoxLinuxAdditions.run 
+  sudo ./VBoxLinuxAdditions.run 
+  sudo ovs-vsctl show
+  conf t
+  sudo nano /etc/network/interfaces 
+  sudo nano /etc/udev/rules.d/70-persistent-net.rules 
+  sudo shutdown -h now
+  ifconfig eth0
+  sudo ovs-vsctl show
+  clear
+  sudo ovs-vsctl show
+  sudo ovs-vsctl list manager
+  sudo ovs-vsctl set-manager tcp:192.168.1.218:6640
+  sudo ovs-vsctl list manager
+  sudo ovs-vsctl del-manager
+  sudo ovs-vsctl list manager
+  sudo ovs-vsctl set-manager tcp:192.168.1.218:6640
+  sudo ovs-vsctl list manager
+  ip a
+  ip a | grep eth0
+  clear
+  ifconfig eth0
+  sudo obs-vsctl show
+  sudo ovs-vsctl show
+  ip a | grep eth0
+  sudo ovs-vsctl show
+  ifconfig eth0
+  sudo ovs-vsctl show
+  sudo ovs-vsctl del-manager
+  sudo ovs-vsctl set-manager tcp:192.168.1.218@:6640
+  sudo ovs-vsctl set-manager tcp:192.168.1.218:6640
+  sudo ovs-vsctl list manager
+  sudo ovs-vsctl show
+  sudo shutdown now
+  sudo ovs-vsctl show
+  ifconfig eth0
+  cd /etc/openvswitch
+  ls
+  sudo ovs-vsctl show
+  sudo ovs-vsctl list manager
+  sudo ovs-vsctl del-manager
+  sudo ovs-vsctl set-manager tcp:192.168.1.205:6640
+  sudo ovs-vsctl show
+  sudo ovs-vsctl del-port ovsbr0 eth1
+  sudo ovs-vsctl show
+  ifconfig eth0
+  sudo ovs-vsctl show
+  sudo ovs-vsctl list manager
+  sudo ovs-vsctl show
+  sudo ovs-ofctl dump-flows ovsbr0
+  sudo ovs-vsctl del-manager
+  sudo ovs-vsctl set-manager tcp:192.168.1.205:6640
+  sudo ovs-vsctl show
+  sudo ovs-vsctl del-br ovsbr0
+  
+  sudo ovs-vsctl list manager
+  ifconfig eth0
+  sudo ovs-vsctl del-controller br0
+  sudo ovs-vsctl del-br br0
+  sudo ovs-vsctl show
+  sudo ovs-vsctl set-manager tcp:192.168.1.205:6640
+  ifconfig eth0
+  sudo ovs-vsctl del-manager
+  
+
